@@ -2,6 +2,7 @@
 
 Ini adalah tugas kelompok 10 untuk memenuhi tugas mata kuliah Software Architecture. 
 Don't follow your dream, follow my IG: @its.me_ahmaaad
+Nama saya adalah Cheng Mad.
 
 Kelompok kami terdiri dari 3 orang yaitu:
 
