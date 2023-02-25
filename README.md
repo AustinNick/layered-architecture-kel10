@@ -1,6 +1,7 @@
 # layered-architecture-kel10
 
-Ini adalah tugas kelompok 10 untuk memenuhi tugas mata kuliah Software Architecture. Ahmaaad adalah anak kesayangan tuhan.
+Ini adalah tugas kelompok 10 untuk memenuhi tugas mata kuliah Software Architecture. 
+Don't follow your dream, follow my IG: @its.me_ahmaaad
 
 Kelompok kami terdiri dari 3 orang yaitu:
 
