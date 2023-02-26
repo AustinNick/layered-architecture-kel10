@@ -67,6 +67,29 @@ Di sebagian besar arsitektur berlapis, ada beberapa lapisan (atas ke bawah):
 	\item \textbf{The database/System Software Layer:} Berisi OS, database, dan antarmuka ke komponen perangkat keras tertentu.
 \end{itemize}
 
+\section{Latar Belakang}
+Penilaian untuk setiap karakteristik berdasarkan kecenderungan alami untuk implementasi tipikal pola layered.
+\begin{itemize}
+	\item Kemampuan untuk merespon dengan cepat terhadap lingkungan yang terus berubah. (monolitik)
+	\item Bergantung pada implementasi pola, penyebaran bisa menjadi masalah. Satu perubahan kecil ke komponen dapat memerlukan redeployment seluruh aplikasi.
+	\item Pengembang dapat memberikan pengujian singkat untuk menguji aplikasi sebelum klien menggunakannya
+	\item Mudah dikembangkan karena polanya sudah terkenal dan tidak terlalu rumit untuk melakukan implementasinya.
+\end{itemize}
+
+\section{Pros Cons}
+\subsection{Pros}
+\begin{itemize}
+	\item Mudah untuk diuji karena komponen-komponennya termasuk lapisan khusus sehingga dapat diuji secara terpisah.
+	\item Sederhana dan mudah diimplementasikan karena secara alami, sebagian besar aplikasi bekerja berlapis-lapis
+\end{itemize}
+
+\subsection{Cons}
+\begin{itemize}
+	\item Tidak mudah untuk melakukan perubahan pada lapisan tertentu karena aplikasi merupakan unit tunggal.
+	\item Kopling antar lapisan cenderung membuatnya lebih sulit. Hal ini membuatnya sulit untuk diukur.
+	\item Harus digunakan sebagai unit tunggal sehingga perubahan ke lapisan tertentu berarti seluruh sistem harus dipekerjakan kembali.
+	\item Semakin besar, semakin banyak sumber daya yang dibutuhkan untuk permintaan untuk melewati beberapa lapisan dan dengan demikian akan menyebabkan masalah kinerja.
+\end{itemize}
 
 \section*{Software Architechture Pattern}
 Ini adalah pola arsitektur paling umum di sebagian besar aplikasi tingkat perusahaan. Ini juga dikenal sebagai pola n-tier, dengan asumsi n jumlah tingkatan. Contoh Skenario:
